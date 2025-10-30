@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #F8F9FC;
+    font-size: 20px;
+    background-color: #F8F9FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    color: #1A1A1A;
+    margin-left: 8px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    top: 0%;
+    background-color: #F4C430;
+}
+header h1 {
+    padding: 0px 10px;
+    width: 50%;
+}
+nav {
+    width: 70%;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-inline-start: 0;
+    height: 100%;
+    margin-block: 0;
+    
+}
+nav > ul > li {
+    display: block;
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+}
+.login-tab {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-inline-start: 0;
+    margin: 0;
+}
+select {
+    border: none;
+    font-size: 20px;
+    background-color: #F4C430;
+}
+.listing {
+    color: white;
+    background-color: #004AAD;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+} 
+select:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+main h2 {
+    text-transform: uppercase;
+    color: #004AAD;
+    font-size: 0.9rem;
+    margin-top: 80px;
+}
+.first {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.button {
+    background-color: #004AAD;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.button a {
+    color: #F8F9FC;
+    text-decoration: none;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #F4C430;
+    transition: 0.3s;
+    border-color: #004AAD;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+.image1 {
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 8px;
+    position: relative;
+}
+.image2 {
+    width: 9%;
+    border-radius: 8px;
+    position: absolute;
+    top: 405px;
+    right: 530px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.sect {
+    position: relative;
+}
+.rent-buy {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.rent-button {
+    background-color: #004AAD;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F8F9FC;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.buy-button {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A1A1A;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.line {
+    display: flex;
+    align-items: end;
+    width: 200px;
+    height: 8px;
+    background-color: #f4f6fa;
+    border-radius: 30px;
+}
+.lines {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+.rent-buy button:hover {
+    background-color: #F4C430;
+    color: #F8F9FC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.brokers p {
+    text-align: center;
+}
+.second {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 80px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 45vh;
+    gap: 2rem;
+
+}
+.box {
+    flex: 1;
+    background-color: white;
+    text-align: center;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.icon {
+    font-size: 5rem;
+    color: #004AAD;
+    margin-bottom: 10px;
+}
+.guides {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.details {
+    margin-top: 15px;
+}
+.end {
+    position: relative;
+
+}
+.estate {
+    margin-left: px;
+    width: 70%;
+    margin-bottom: -50px;
+    border-radius: 8px;
+}
+.estate2 {
+    width: 20%;
+    border-radius: 8px;
+    position: absolute;
+    top: 375px;
+    left: 575px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.end-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+}
+.text {
+    max-width: 40%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.support {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.support-icon {
+    font-size: 3rem;
+    color: #004AAD;
+    margin-right: 10px;
+}
+.support-p {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 5px;
+}      
+.text h2 {
+    margin-bottom: -35px;
+}    
+.text-first {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: -15px;
+}      
+.para {
+    margin-bottom: 25px;
+}   
+.arch {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+.about {
+  width: 100%;
+  max-width: 700px;
+  margin: 15px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+details {
+  background-color: #fff8dc;
+  border: 2px solid #b8860b;
+  border-radius: 10px;
+  margin-top: px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b8860b;
+  list-style: none;
+}
+summary:hover {
+  color: #a07604;
+}
+
+details p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #333;
+  animation: fadeIn 0.4s ease;
+}
+.years {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 560px;
+    background-color: white;
+    color: #004AAD;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(2, 2, 214, 0.9);
+}
+.years p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 15px;
+}
+.years span {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.2;
+}
+
+@media (min-width: 100px) and (max-width: 1304px) {
+    .intro {
+        flex-direction: column;
+    }
+    .image2 {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 30%;
+        margin-top: -80px;
+        margin-left: 35%;
+    }
+    .rent-buy {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    .line {
+        height: 7px;
+    }
+
+    .lines {
+        position: static;
+        margin-top: -54px;
+    }
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .box {
+        max-width: 90%;
+    }
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 5px 0;
+        gap: 10px;
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+    }
+    nav > ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+    }
+    .login-tab {
+        justify-content: center;
+        width: 100%;
+    }
+    .end-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .text {
+        max-width: 100%;
+        margin: 0;
+    }
+    .estate2 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 30%;
+        margin-top: 5px;
+    }
+    .support {
+        justify-content: center;
+    }
+    .support-icon {
+        font-size: 2.5rem;
+
+    }
+    .support p {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .arch {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .years {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 15px;
+    }
+}
+
